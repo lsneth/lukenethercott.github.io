@@ -1,0 +1,19 @@
+body {
+    background-color: aliceblue;
+}
+
+h1 {
+    background-color: orange;
+    padding: 50px;
+    border:30px;
+    font-family: ep;
+}
+
+.latin{
+    font-size: 45px;
+    color: chocolate;
+}
+
+#fancy {
+    font-family: 'Ephesis';
+}
