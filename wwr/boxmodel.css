@@ -1,0 +1,64 @@
+body{
+    background-color: palegreen;
+}
+
+h2{
+    font-size: 40px;
+}
+
+.about{
+    margin: 10px 0;
+    background-color: plum;
+    padding: 25px;
+    border-radius: 20px;
+    max-width: 50%;
+    box-sizing: border-box;
+}
+
+.about h2{
+    color: purple;
+
+}
+
+.contact{
+    margin: 10px 0;
+    background-color: skyblue;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 25px;
+}
+
+.contact p{
+    color: white;
+}
+
+.info{
+    margin: 10px 0;
+    width:150px;
+    height:150px;
+    border-radius: 150px;
+    background-color: palegoldenrod;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.info h2{
+    font-size: 30px;
+    padding-top: 36px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    gap: 20px;
+}
+
+main section{
+    border: solid 1px black;
+}
+
+.para {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
