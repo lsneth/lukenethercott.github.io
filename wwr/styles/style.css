@@ -1,21 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Stick+No+Bills:wght@300&display=swap');
+/* color palette - https://coolors.co/264653-2a9d8f-e9c46a-f4a261-e76f51 */
+
 body{
-    background-color: #F0EAD2;
+    font-family: Quicksand, Helvetica, Arial, sans-serif;
+    background-color: #e9c46a;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header{
-    background-color: #6C584C;
+    background-color: #264653;
 }
 
 footer{
-    background-color: #6C584C;
+    background-color: #264653;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer h3{
-    color: #F0EAD2;
+    color: #E9C46A;
 }
 
 footer a{
-    color: #F0EAD2;
+    color: #E9C46A;
     text-decoration: none;
 }
 
@@ -27,23 +36,42 @@ footer h3 a:hover{
     text-decoration: underline;
 }
 
+footer .social img{
+    padding-top: 15px;
+}
+
+h2{
+    margin: 0;
+}
+
 h4{
-    color: #6C584C;
+    color: #264653;
 }
 
 nav a{
     text-align: center;
-    color: #F0EAD2;
+    color: #E9C46A;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav a:hover{
-    background-color: #A98467;
-    color: #F0EAD2;
+    background-color: #F4A261;
+    color: #E9C46A;
 }
 
 main section{
     text-align: center;
+}
+
+main section img{
+    box-sizing: border-box;
+}
+
+.home-title{
+    font-family: 'Stick No Bills';
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 .button-box{
@@ -51,30 +79,39 @@ main section{
 }
 
 .msg {
-    background-color: #A98467;
+    background-color: #F4A261;
+    padding: 35px;
 }
 
 .msg h2{
-    color: #F0EAD2;
+    font-family: 'Stick No Bills';
+    color: #264653;
 }
 
 .msg p{
-    color: #F0EAD2;
+    color: #264653;
+    font-size: .8em;
+    line-height: 1.5em;
+    padding-bottom: 15px;
 }
 
 .home-title{
-    color: #6C584C;
+    color: #264653;
 }
 
 .book, .join{
-    background-color: #79C6E2;
-    color: #F0EAD2;
+    background-color: #E76F51;
+    color: #264653;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover{
-    background-color: #6C584C;
-    color: #F0EAD2;
+    background-color: #264653;
+    color: #E9C46A;
 }
 
 .logo {
@@ -83,6 +120,19 @@ main section{
 
 .icon{
     width: 80px;
+    padding-top: 10px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img{
+    border: 10px solid #264653;
+}
+
+#hero-img{
+    width: 100%
 }
 
 #hero-msg h1, #hero-msg h4{
@@ -96,5 +146,9 @@ main section{
 
 #background{
     height: 725px;
-    background-color: #A98467;
+    background-color: #F4A261;
+}
+
+#logo_link {
+    padding-top: 5px;
 }
