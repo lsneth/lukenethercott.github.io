@@ -69,7 +69,7 @@ main section img{
 }
 
 .home-title{
-    font-family: 'Stick No Bills';
+    font-family: 'Stick No Bills', Helvetica, Arial, sans-serif;
     font-size: 2em;
     margin-top: 10px;
 }
