@@ -43,6 +43,7 @@ h3{
     padding: 10px;
     margin: 5px 10px;
     border-radius: 3px;
+    border-width: 2px;
     border-color: lightgray;
 }
 
@@ -53,6 +54,7 @@ h3{
     padding: 10px;
     margin: 5px 10px;
     border-radius: 3px;
+    border-width: 2px;
     border-color: lightgray;
 
 }
