@@ -204,7 +204,7 @@ main section img{
 #hero-msg h1, #hero-msg h4{
     text-align: center;
     color:#e9c46a;
-    text-shadow:2px 2px 2px #000000;
+    text-shadow:2px 2px 3px #000000;
 }
 
 #hero-box{
