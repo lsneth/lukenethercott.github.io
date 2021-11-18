@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insta-bid | Smartify Smarthomes</title>
+
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <a href='index.html' id='logoLink'>
+            <img id='logo' src='images/houseIcon.png' alt='Smartify Smarthomes Logo'>
+        </a>
+        <nav>
+            <a href='index.html'>Home</a>
+            <a href='products.html'>Products</a>
+            <a href='instaBid.html'>Insta-bid</a>
+            <a href='contactUs.html'>Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <section id='hero'>
+            <img id='heroImage' src='images/house2.jpg' alt='house'>
+            <h1>Insta-bid</h1>
+            <h2>See your smart home price in 2 minutes</h2>
+            <button>Price Your Home Now!</button>
+        </section>
+        <h1>Insta-bid</h1>
+        <form>
+            <ul>
+                <li>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="user_name">
+                </li>
+                <li>
+                    <label for="mail">E-mail:</label>
+                    <input type="email" id="mail" name="user_email">
+                </li>
+                <li>
+                    <p>What smart devices would you like in your home?</p>
+                    <input type='checkbox' name='lightswitches'>
+                    <label for='lightswitches'>Light Switches</label>
+                    <input type='checkbox' name='lights'>
+                    <label for='lights'>Lights</label>
+                    <input type='checkbox' name='motionSensors'>
+                    <label for='motionSensors'>Motion Sensors</label>
+                    <input type='checkbox' name='smartBlinds'>
+                    <label for='smartBlinds'>Smart Blinds</label>
+                    <input type='checkbox' name='interiorSecurityCameras'>
+                    <label for='interiorSecurityCameras'>Interior Security Cameras</label>
+                </li>
+                <li>
+                    <label for="sqFeet">In how many square feet of your house would you like these devices?</label>
+                    <input type='number' name="sqFeet">
+                </li>
+                <li>
+                    <input type='checkbox' name='locks'>
+                    <label for='locks'>Locks</label>
+                    <input type='checkbox' name='doorSensor'>
+                    <label for='doorSensor'>Door Sensor</label>
+                    <input type='checkbox' name='doorbell'>
+                    <label for='doorbell'>Doorbell</label>
+                </li>
+                <li>
+                    <label for="numDoors">On how many doors would you like these devices?</label>
+                    <input type='number' name="numDoors">
+                </li>
+                <li>
+                    <input type='checkbox' name='garage'>
+                    <label for='garage'>Garage Doors</label>
+                </li>
+                <li>
+                    <label for="numGarage">On how many garage doors would you like these devices?</label>
+                    <input type='number' name="numGarage">
+                </li>
+                <li>
+                    <input type='checkbox' name='smartVacuum'>
+                    <label for='smartVacuum'>Smart Vacuum</label>
+                </li>
+                <li>
+                    <label for="floors">On how many floors would you like these devices</label>
+                    <input type='number' name="floors">
+                </li>
+                <li>
+                    <input type='checkbox' name='exteriorSecurityCameras'>
+                    <label for='exteriorSecurityCameras'>Exterior Security Cameras</label>
+                </li>
+                <li>  
+                    <label for="numCameras">On how many sides of your house would you like these devices</label>
+                    <input type='number' name="numCameras">
+                <li class="button">
+                    <button class='getBid' type="submit">Get Insta-bid</button>
+                </li>
+            </ul>
+        </form>
+    </main>
+    <footer>
+        <h3>Smartify Smarthomes &copy; 2021</h3>
+        <h3><a href="site-plan.html">Site Plan</a></h3>
+        <h3><a href="contactUs.html">Contact Us</a></h3>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.png" alt="instagram icon">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>

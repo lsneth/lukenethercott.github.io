@@ -4,24 +4,90 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home | Smartify Smarthomes</title>
 
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
     <header>
-        <img id='logo' src='images/houseIcon.png' alt='logo'>
-        <h3>Home</h3>
-        <h3>Products</h3>
-        <h3>Insta-bid</h3>
-        <h3>Contact Us</h3>
+        <a href='index.html' id='logoLink'>
+            <img id='logo' src='images/houseIcon.png' alt='Smartify Smarthomes Logo'>
+        </a>
+        <nav>
+            <a href='index.html'>Home</a>
+            <a href='products.html'>Products</a>
+            <a href='instaBid.html'>Insta-bid</a>
+            <a href='contactUs.html'>Contact Us</a>
+        </nav>
     </header>
     <main>
-        <img id='heroImage' src='images/house.jpg' alt='house'>
-        <h1>Smartify your entire home for less than $3000</h1>
+        <section id='hero'>
+            <img id='heroImage' src='images/house.jpg' alt='house'>
+            <h1>Smartify your entire home for less than $3000</h1>
+            <h2>Locks - Lights - Plugs - Cameras - More</h2>
+            <button>Price Your Home Now!</button>
+        </section>
+        <section id='automation'>
+            <img id='automationImage' src='images/kitchen.jpg' alt='kitchen'>
+            <h2>Automation</h2>
+            <p>
+                Make your home do the thinking for you. Automatically lock the doors when you leave home. 
+                Turn off the lights when the TV turns on. Pause the movie when the doorbell rings. We'll customize 
+                your home's automations to your needs during a pre and post installation one-on-one consultation.
+            </p>
+            <button>Price Your Home Now!</button>
+        </section>
+        <section id='voiceControl'>
+            <h2>Voice Control</h2>
+            <p>
+                Hey Google, play Stranger Things on Netflix. Alexa, vacuum the floor. Hey Siri, turn out the 
+                lights. Control any device in your entire home with the sound of your voice.
+            </p>
+            <button>Price Your Home Now!</button>
+            <img id='voiceControlImage' src='images/speaker.jpg' alt='google home smart speaker and smartphone'>
+        </section>
+        <section id='phoneControl'>
+            <img id='phoneControlImage' src='images/smartphone.jpg' alt='girl holding smartphone'>
+            <h2>Phone Control</h2>
+            <p>
+                Turn on your AC before you get home. Lock your doors if you forgot. Check security cameras for safety. 
+                With our app you’ll have a customizable user interface with controls to every device in your home.
+            </p>
+            <button>Price Your Home Now!</button>
+        </section>
+        <section id='benefits'>
+            <h3>Upfront Pricing</h3>
+            <p>No estimates. No Hidden Fees. No Subscriptions. Know exactly how much your smart home will cost in seconds.</p>
+            <h3>Continued Support</h3>
+            <p>Having a problem with your smart home that you don't know how to fix? Watch one of our hundreds of tutorial videos or call in for support.</p>
+            <h3>Personal Service</h3>
+            <p>Get one-on-one customization during our pre and post installation consultations.</p>
+        </section>
+        <section id='ourServices'>
+            <h1>Our Services Inlcude</h1>
+            <img class='ourServicesImage' src='images/newHome.jpg' alt='home under construction'>
+            <h2>New Homes</h2>
+            <img class='ourServicesImage' src='images/existingHome.jpg' alt='kitchen'>
+            <h2>Existing Homes</h2>
+            <img class='ourServicesImage' src='images/commercial.jpg' alt='commercial building'>
+            <h2>Commercial Buildings</h2>
+        </section>
     </main>
     <footer>
-        <a href='site-plan.html'>Site Plan</a>
+        <h3>Smartify Smarthomes &copy; 2021</h3>
+        <h3><a href="site-plan.html">Site Plan</a></h3>
+        <h3><a href="contactUs.html">Contact Us</a></h3>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.png" alt="instagram icon">
+            </a>
+        </div>
     </footer>
 </body>
 </html>
