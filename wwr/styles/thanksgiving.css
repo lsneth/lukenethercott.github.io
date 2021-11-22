@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+#container{
+    position: relative;
+    text-align: center;
+}
+
+img{
+    height:600px;
+}
+
+h3{
+    position: absolute;
+    top: 250px;
+    left:50%;
+    width: 400px;
+    text-align: center;
+    font-size: 18px;
+    color:white;
+    margin-left: -200px;
+    font-family: 'Dancing Script';
+}
+
+h1{
+    position: absolute;
+    top: 375px;
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    color:white;
+    margin:auto;
+    font-family: 'Dancing Script';
+}

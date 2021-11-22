@@ -1,3 +1,15 @@
+nav{
+    display:flex;
+    justify-content: space-around;
+}
+
+nav a{
+    text-align: center;
+    color: #E9C46A;
+    text-decoration: none;
+    padding: 35px;
+}
+
 #logo{
-    width:50px;
+    width:30px;
 }
