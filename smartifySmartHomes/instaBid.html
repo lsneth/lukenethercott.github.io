@@ -10,10 +10,10 @@
 </head>
 <body>
     <header>
-        <a href='index.html' id='logoLink'>
-            <img id='logo' src='images/houseIcon.png' alt='Smartify Smarthomes Logo'>
-        </a>
         <nav>
+            <a href='index.html' id='logoLink'>
+                <img id='logo' src='images/houseIcon.png' alt='Smartify Smarthomes Logo'>
+            </a>
             <a href='index.html'>Home</a>
             <a href='products.html'>Products</a>
             <a href='instaBid.html'>Insta-bid</a>
@@ -23,77 +23,100 @@
     <main>
         <section id='hero'>
             <img id='heroImage' src='images/house2.jpg' alt='house'>
-            <h1>Insta-bid</h1>
-            <h2>See your smart home price in 2 minutes</h2>
-            <button>Price Your Home Now!</button>
+            <div id='heroText'>
+                <h1>Insta-bid</h1>
+                <h2>See your smart home price in 2 minutes</h2>
+                <button>Price Your Home Now!</button>
+            </div>
         </section>
-        <h1>Insta-bid</h1>
         <form>
-            <ul>
-                <li>
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="user_name">
-                </li>
-                <li>
-                    <label for="mail">E-mail:</label>
-                    <input type="email" id="mail" name="user_email">
-                </li>
-                <li>
-                    <p>What smart devices would you like in your home?</p>
-                    <input type='checkbox' name='lightswitches'>
-                    <label for='lightswitches'>Light Switches</label>
-                    <input type='checkbox' name='lights'>
-                    <label for='lights'>Lights</label>
-                    <input type='checkbox' name='motionSensors'>
-                    <label for='motionSensors'>Motion Sensors</label>
-                    <input type='checkbox' name='smartBlinds'>
-                    <label for='smartBlinds'>Smart Blinds</label>
-                    <input type='checkbox' name='interiorSecurityCameras'>
-                    <label for='interiorSecurityCameras'>Interior Security Cameras</label>
-                </li>
-                <li>
-                    <label for="sqFeet">In how many square feet of your house would you like these devices?</label>
-                    <input type='number' name="sqFeet">
-                </li>
-                <li>
-                    <input type='checkbox' name='locks'>
-                    <label for='locks'>Locks</label>
-                    <input type='checkbox' name='doorSensor'>
-                    <label for='doorSensor'>Door Sensor</label>
-                    <input type='checkbox' name='doorbell'>
-                    <label for='doorbell'>Doorbell</label>
-                </li>
-                <li>
-                    <label for="numDoors">On how many doors would you like these devices?</label>
-                    <input type='number' name="numDoors">
-                </li>
-                <li>
-                    <input type='checkbox' name='garage'>
-                    <label for='garage'>Garage Doors</label>
-                </li>
-                <li>
-                    <label for="numGarage">On how many garage doors would you like these devices?</label>
-                    <input type='number' name="numGarage">
-                </li>
-                <li>
-                    <input type='checkbox' name='smartVacuum'>
-                    <label for='smartVacuum'>Smart Vacuum</label>
-                </li>
-                <li>
-                    <label for="floors">On how many floors would you like these devices</label>
-                    <input type='number' name="floors">
-                </li>
-                <li>
-                    <input type='checkbox' name='exteriorSecurityCameras'>
-                    <label for='exteriorSecurityCameras'>Exterior Security Cameras</label>
-                </li>
-                <li>  
-                    <label for="numCameras">On how many sides of your house would you like these devices</label>
-                    <input type='number' name="numCameras">
-                <li class="button">
-                    <button class='getBid' type="submit">Get Insta-bid</button>
-                </li>
-            </ul>
+            <h1>Insta-bid</h1>
+            <label class='keyboardInputText' for="name">
+                <input type="text" id="name" name="user_name" placeholder="First and Last Name">
+            </label>
+
+            <label class='keyboardInputText' for="mail">
+                <input type="email" id="mail" name="user_email" placeholder="Email Address">
+            </label>
+
+            <p>Check the boxes below next to the devices you would like to include in your smarthome.</p>
+
+            <label class="container">Smart Light Switches
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+              
+            <label class="container">Smart Light bulbs
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+              
+            <label class="container">Motion Sensors
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+              
+            <label class="container">Smart Blinds
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+
+            <label class="container">Interior Security Cameras
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+
+            <label class="container">Smart Locks
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+
+            <label class="container">Door Sensors
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+
+            <label class="container">Smart Doorbells
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+
+            <label class="container">Smart Garage Door Openers
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+
+            <label class="container">Smart Vacuums
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+
+            <label class="container">Exterior Security Cameras
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+
+            <label class='keyboardInputNum' for="sqFeet">How many square feet is your home?
+                <input type='number' name="sqFeet">
+            </label>
+
+            <label class='keyboardInputNum' for="floors">How many floors does your home have?
+                <input type='number' name="floors">
+            </label>
+
+            <label class='keyboardInputNum' for="doors">How many doors does your home have?
+                <input type='number' name="doors">
+            </label>
+
+            <label class='keyboardInputNum' for="garageDoors">How many garage doors does your home have?
+                <input type='number' name="garageDoors">
+            </label>
+
+            <label class='keyboardInputNum' for="exteriorSides">How many exterior sides does your home have?
+                <input type='number' name="exteriorSides">
+            </label>
+
+            <button class='getBid' type="submit">Get Insta-bid</button>
         </form>
     </main>
     <footer>
