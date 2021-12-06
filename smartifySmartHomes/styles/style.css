@@ -7,7 +7,13 @@ html {
 body{
     background-color: #F1F6F8;
     font-family: 'Bitter', serif;
-    color: #051923;
+    color: #132247;
+}
+
+#productsBody{
+    background-color: white;
+    font-family: 'Bitter', serif;
+    color: #132247;
 }
 
 h1, h2, h3, h4, h5, h6, nav, button{
@@ -15,7 +21,7 @@ h1, h2, h3, h4, h5, h6, nav, button{
 }
 
 button{
-    background-color: #00A6FB;
+    background-color: #0088CC;
     color: #F1F6F8;
     padding: 15px;
     border:0px;
@@ -31,7 +37,7 @@ button:hover{
 
 nav{
     display:flex;
-    background-color: #006494;
+    background-color: #132247;
     /* grid-template-columns: 1fr repeat(4, 4fr); */
 }
 
@@ -44,7 +50,7 @@ nav a{
 }
 
 nav a:hover{
-    background-color: #00A6FB;
+    background-color: #0088CC;
 }
 
 #logoLink:hover{
@@ -77,7 +83,7 @@ nav a:hover{
     bottom:50%;
     margin-left: 30px;
     color: #F1F6F8;
-    filter: drop-shadow(3px 3px 5px #051923)
+    filter: drop-shadow(3px 3px 5px #132247)
 }
 
 #automation, #voiceControl, #phoneControl{
@@ -157,12 +163,12 @@ nav a:hover{
     position:relative;
     bottom:50%;
     color: #F1F6F8;
-    filter: drop-shadow(3px 3px 5px #051923);
+    filter: drop-shadow(3px 3px 5px #132247);
     font-size:1.5em;
 }
 
 footer{
-    background-color: #006494;
+    background-color: #132247;
     display:grid;
     grid-template-columns: 300px 150px 150px 1fr;
     padding: 20px 50px;
@@ -178,7 +184,7 @@ footer #social{
 }
 
 footer #social a{
-    color: #006494;
+    color: #132247;
 }
 
 .keyboardInputText, .keyboardInputNum{
@@ -187,29 +193,64 @@ footer #social a{
 
 .keyboardInputText input{
     background-color: white;
-    border: 1px solid #051923;
+    border: 1px solid #838383;
     border-radius: 3px;
     font-family: 'Titillium Web';
     font-weight: bold;
     width: 220px;
+    padding:10px;
 }
 
 .keyboardInputNum input{
     background-color: white;
-    border: 1px solid #051923;
+    border: 1px solid #838383;
     border-radius: 3px;
     font-family: 'Titillium Web';
     font-weight: bold;
     width:52px;
+    padding:10px;
 }
 
 form{
     margin: 30px;
-    color:#051923;
+    color:#132247;
 }
 
 form label{
     margin: 20px 0;
+}
+
+#products{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:100px 75px;
+    text-align: center;
+    margin:50px;
+}
+
+.product img{
+    width: 200px;
+}
+
+#contactPage input, #contactPage textarea{
+    background-color: white;
+    border: 1px solid #838383;
+    border-radius: 3px;
+    font-family: 'Titillium Web';
+    font-weight: bold;
+    width: 220px;
+    display: block;
+    margin:10px auto;
+    padding:10px;
+}
+
+#contactPage textarea{
+    width:400px;
+    height:200px;
+}
+
+#contactPage{
+    text-align: center;
 }
 
 /* Customize the label (the container) */
@@ -243,7 +284,7 @@ form label{
     height: 17px;
     width: 17px;
     background-color: white;
-    border: 1px solid #051923;
+    border: 1px solid #132247;
     border-radius: 3px;
   }
   
@@ -254,7 +295,7 @@ form label{
   
   /* When the checkbox is checked, add a blue background */
   .container input:checked ~ .checkmark {
-    background-color: #00A6FB;
+    background-color: #0088CC;
   }
   
   /* Create the checkmark/indicator (hidden when not checked) */
@@ -280,4 +321,11 @@ form label{
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
+  }
+
+  @media screen and (max-width: 900px) {
+    #heroText h1{
+        font-size: 2em;
+        margin-bottom:0;
+    }
   }
