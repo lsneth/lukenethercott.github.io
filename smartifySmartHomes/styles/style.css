@@ -322,9 +322,47 @@ form label{
     transform: rotate(45deg);
   }
 
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 985px) {
     #heroText h1{
         font-size: 2em;
         margin-bottom:0;
+    }
+
+    #heroText h3{
+        font-family: 'Bitter', serif;
+        font-size: 1em;
+        margin-top:0;
+    }
+  }
+
+  /* Media query below is not completed */
+  @media screen and (max-width: 770px) {
+    section, img, h1, h2, h3, h4, h5, button, #automation, #voiceControl, #phoneControl, #benefits, #ourServices{
+        display: block;
+    }
+
+    #automation, #voiceControl, #phoneControl{
+        padding: 10px;
+    }
+
+    .benefit{
+        margin: 20px;
+    }
+
+    #heroText{
+        position: static;
+        margin-left: 10px;
+        margin-top: 0;
+        color: #132247;
+        filter: none;
+    }
+
+    #newHomes h2, #existingHomes h2, #commercialBuildings h2{
+        text-align: center;
+        position:relative;
+        bottom:70%;
+        color: #F1F6F8;
+        filter: drop-shadow(3px 3px 5px #132247);
+        font-size:1.5em;
     }
   }
